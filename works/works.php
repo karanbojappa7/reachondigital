@@ -44,7 +44,7 @@
 
 
     <section id="gsec1">
-        <div class="col-sm-4 mx-auto  glitchimg logogpic">
+        <div class="col-sm-4 mx-auto pt-5 mt-5 mb-5 pb-5 logogpic">
             <img src="../style_sheets/pictures/logolgwhite.png" width="100%" class="">
         </div>
 
@@ -53,8 +53,9 @@
 
 
     <section class="gallery bgfull">
-        <div class="container">
-        <div class=" ctg">
+                    <div class=" text-center fon1 bgc8 pt-5 pb-5" style="font-size:3.5em">Works</div>
+
+        <div class="container ctg">
             <div class="row">
                 <div class="gallery-filter fon3">
                     <span class="filter-item active" data-filter="all">All</span>
@@ -86,7 +87,7 @@ while($result= mysqli_fetch_array($queryform)){
 ?>
             </div>
 
-            <a href="../index.html"><button class="mt-5  but mx-auto d-block">Return</button></a>
+            <a href="../index.html"><button class="mt-5 bgc9 but mx-auto d-block">Return</button></a>
 
 
         </div>
@@ -97,12 +98,11 @@ while($result= mysqli_fetch_array($queryform)){
 
 
 
-
-    <footer>
-        <div class="container-fluid p-5">
-            <div class="row">
+ <footer>
+        <div class="container-fluid ">
+            <div class="row pt-5">
                 <div class="col-sm-4 pt-3 pb-3 order-3 order-sm-1 order-lg-1 ">
-                    <img src="../style_sheets/pictures/logowhite.png" width="100%"  class=" footlogo">
+                    <img src="../style_sheets/pictures/logowhite.png" width="100%" class=" footlogo">
 
                     <div class="text-center justify-content-center soc ">
                         <a href="mailto:@gmail.com?&subject=Hello"><i class="bsw fa fa-envelope mailicon" aria-hidden="true"></i>
@@ -113,14 +113,10 @@ while($result= mysqli_fetch_array($queryform)){
                         </a>
                         <a href="https://www.instagram.com/digitalmagnet.media/" target="_blank"><i class="fa fa-instagram insicon" aria-hidden="true"></i>
                         </a>
-                        <a href="" target="_blank"><i class="fa fa-youtube-play yticon" aria-hidden="true"></i>
+                        <a href="" target="_blank"><i class="fa fa-linkedin-square linicon" aria-hidden="true"></i>
                         </a>
-
                     </div>
-
                 </div>
-
-
                 <div class="col-sm-4 pt-4 text-center ulsec fon1 bgc7 order-1">
                     <span class="bgc10 usel d-block">Usefull links:
                     </span>
@@ -129,10 +125,11 @@ while($result= mysqli_fetch_array($queryform)){
                         <div class="fon3 foottxt row mx-auto text-center ">
                             <div id="flink1" class="folink">Home</div>
                             <div id="flink2" class="folink">About</div>
-                            <div id="flink3" class="folink">Services</div>
-                            <div id="flink4" class="folink">Clients</div>
-                            <div id="flink4" class="folink">Works</div>
-                            <div id="flink5" class="folink">Contact</div>
+                            <div id="flink3" class="folink">Works</div>
+                            <div id="flink4" class="folink">Services</div>
+                            <div id="flink5" class="folink">Clients</div>
+                            <div id="flink6" class="folink">Testimonials</div>
+                            <div id="flink7" class="folink">Contact</div>
                         </div>
                     </div>
                 </div>
@@ -140,14 +137,12 @@ while($result= mysqli_fetch_array($queryform)){
                     <div class=" p-3 map ">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31104.522779869072!2d77.515258072429!3d12.96767028619905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sDigital%20Magnet%20Media%20%2COld%20Annaporneshwari%20Nagar%20Police%20station%20Building%2C%20Papreddy%20Palya%2C%202nd%20Stage%2C%20Naagarabhaavi%2C%20Bengaluru%2C%20Karnataka%20560072.!5e0!3m2!1sen!2sin!4v1653868074360!5m2!1sen!2sin" width="100%;" style="box-shadow: 0 10px 20px -20px rgba(255,255,255, 0.5); border: .01px solid var(--c10);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-
                 </div>
                 <div class="cpy mx-auto order-last pb-2">
-
-                    <div class="zi text-center fon3 col-sm-12">
+                    <div class="text-center fon3 col-sm-12 mt-1">
                         ©Reach On Digital. All Rights Reserved
                     </div>
-                    <div class="bgc5 fon1 text-center loc pt-1 ">Handcrafted by<a href="http://bbk.epizy.com/" target="_blank" class="p-2 me"><span class="me bgc5">Life_On_Code</a><span class="me heart"><img src="../style_sheets/pictures/heart.png" class="sm-1" width="15px"></span> </span></div>
+                    <div class="bgc5 fon1 text-center loc pt-1 hide ">Handcrafted by<a href="http://bbk.epizy.com/" target="_blank" class="p-2 me"><span class="me bgc5">Life_On_Code</a><span class="me heart"><img src="../style_sheets/pictures/heart.png" class="sm-1" width="15px"></span> </span></div>
                 </div>
             </div>
         </div>
